@@ -1,0 +1,81 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #20293A;
+    font-family: "Sora", sans-serif;
+}
+
+.card {
+    width: 336px;
+    height: 348px;
+    padding: 1rem 1rem 1.25rem 1rem;
+    background-color: #fff;
+    border: solid 1px #e5eaf0;
+    box-shadow: 0 4px 8px #e5eaf0;
+    border-radius: 1rem;
+}
+
+.badge {
+    display: inline-block;
+    padding: 0.25rem 1rem;
+    margin-top: 0.75rem;
+    font-size: 0.625rem;
+    font-weight: 600;
+    color: #5306ac;
+    background-color: #f2eafd;
+    border: 1px solid #f2eafd;
+    border-radius: 2rem;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.card h1 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: -0.5rem;
+}
+
+.card p:first-of-type {
+    padding: 0;
+    font-size: 0.875rem;
+    font-weight: 300;
+    color: #394150;
+}
+
+.card hr {
+    width: calc(100% + 2rem);
+    margin: 1.25rem -1rem;
+    border: none;
+    border-top: 1.2px solid #E5EAF0;
+}
+
+.card p:last-of-type {
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: #394150;
+}
+
+@media (max-width: 480px) {
+    .card {
+        width: 90%;
+        height: auto;
+    }
+
+    .card h1 {
+        font-size: 1rem;
+    }
+
+    .card p {
+        font-size: 0.75rem;
+    }
+}

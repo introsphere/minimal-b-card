@@ -32,7 +32,7 @@ body {
     margin-top: 0.75rem;
     font-size: 0.625rem;
     font-weight: 600;
-    color: #5306ac;
+    color: #7C19EE;
     background-color: #f2eafd;
     border: 1px solid #f2eafd;
     border-radius: 2rem;
@@ -55,8 +55,8 @@ body {
 .card p:first-of-type {
     padding: 0;
     font-size: 0.875rem;
-    font-weight: 300;
-    color: #394150;
+    font-weight: 200;
+    color: #20293A;
 }
 
 .card hr {
@@ -68,7 +68,7 @@ body {
 
 .card p:last-of-type {
     font-size: 0.75rem;
-    font-weight: 500;
+    font-weight: 400;
     color: #394150;
 }
 
